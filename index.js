@@ -80,7 +80,7 @@ app.get('/files/content', async (req, res) => {
 })
 
 // Start the server on port 9000
-server.listen(9000, () => console.log(`Server running on port 9000`))
+server.listen(8000, () => console.log(`Server running on port 8000`))
 
 // Function to generate a file tree structure recursively
 async function generateFileTree(directory) {
